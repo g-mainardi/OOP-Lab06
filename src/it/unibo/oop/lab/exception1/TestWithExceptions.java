@@ -12,7 +12,7 @@ import org.junit.Test;
  * Example testing class that illustrates two possible patterns to make good
  * tests when exceptions are involved.
  */
-public class TestWithExceptions {
+public final class TestWithExceptions {
 
     /**
      * This is a test where we do not expect any exception to be generated. If

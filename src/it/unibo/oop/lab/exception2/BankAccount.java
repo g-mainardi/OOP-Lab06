@@ -51,5 +51,5 @@ public interface BankAccount {
      * 
      * @return The total number of transaction for the account
      */
-    int getNTransactions();
+    int getTransactionCount();
 }
