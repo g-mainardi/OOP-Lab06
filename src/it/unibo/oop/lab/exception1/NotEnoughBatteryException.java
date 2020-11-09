@@ -10,7 +10,7 @@ public class NotEnoughBatteryException extends RuntimeException {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -288979685441144222L;
+	private static final long serialVersionUID = 1L;
 	private final double batteryLevel;
 	private final double batteryRequired;
 	
