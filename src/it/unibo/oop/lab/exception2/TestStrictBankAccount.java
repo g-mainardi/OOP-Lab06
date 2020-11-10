@@ -56,7 +56,7 @@ public class TestStrictBankAccount {
     	}
     	// test TransactionOverQuotaException
     	try {
-    		while (account2.getNTransactions() < MAX_ATM_TRANSACTION) {
+    		while (account2.getTransactionCount() < MAX_ATM_TRANSACTION) {
     			account2.depositFromATM(luigi.getUserID(), BASIC_ACTION_AMOUNT);
     		}
     		account2.depositFromATM(luigi.getUserID(), BASIC_ACTION_AMOUNT);
